@@ -16,7 +16,10 @@ const main = async () => {
       type: QueryTypes.SELECT,
     });
 
-    console.log(blogs);
+    blogs.map((blog) => {
+      console.log(`${blog.author}: \'${blog.title}\', ${blog.likes} likes`);
+    });
+
     sequelize.close();
   } catch (error) {
     console.error('Unable to connect to the database: ', error);

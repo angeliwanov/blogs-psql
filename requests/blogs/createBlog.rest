@@ -2,6 +2,7 @@ POST http://localhost:3001/api/blogs
 Content-Type: application/json
 
 {
-  "author": "Kyle",
-  "title": "You don't know JS"
+  "author": "Dan Abramov",
+  "title": "React",
+  "url": "react.org"
 }

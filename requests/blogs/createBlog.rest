@@ -1,8 +1,9 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZ2VsIiwiaWQiOjEsImlhdCI6MTcyMzExNjA2M30.2J7YpHdiGLZ5ViNUazvwXMaeWDH7hSIvrFdEy4vobKs
 
 {
-  "author": "Dan Abramov",
-  "title": "React",
-  "url": "react.org"
+  "author": "Public",
+  "title": "Ruby",
+  "url": "ruby.org"
 }

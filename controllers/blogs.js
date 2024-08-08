@@ -47,6 +47,9 @@ router.delete('/:id', blogFinder, async (req, res) => {
 });
 
 router.put('/:id', blogFinder, async (req, res) => {
+  if (!req.body.likes)
+    return res.status(400).send({ error: 'Property likes is missing' });
+
   if (req.blog) {
     req.blog.likes = req.body.likes;
     await req.blog.save();

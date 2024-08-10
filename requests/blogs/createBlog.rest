@@ -1,10 +1,10 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZ2VsQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MjMzMTE0NzF9.gtROgpXw68L-RzQDabqNkFKfn2eVbD2-jZV1Ty8Eq6c
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZ2VsQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MjMzMTM5Mjl9.kNzrLQZwiU0DMJtyoWm5_34ujB9YTqlIgzMmjMC5qXw
 
 {
   "author": "Public",
   "title": "Ruby",
   "url": "ruby.org",
-  "year": 2025
+  "year": 2023
 }

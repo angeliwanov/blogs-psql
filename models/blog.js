@@ -28,13 +28,13 @@ Blog.init(
     createdAt: {
       type: DataTypes.DATE,
       defaultValue: DataTypes.NOW,
-      name: 'createdAt',
-      field: 'created_at',
+      // name: 'createdAt',
+      // field: 'created_at',
     },
     updatedAt: {
       type: DataTypes.DATE,
-      name: 'updatedAt',
-      field: 'updated_at',
+      // name: 'updatedAt',
+      // field: 'updated_at',
     },
     year: {
       type: DataTypes.INTEGER,
@@ -47,7 +47,7 @@ Blog.init(
   {
     sequelize,
     underscored: true,
-    timestamps: false,
+    timestamps: true,
     modelName: 'blog',
   }
 );

@@ -25,6 +25,24 @@ Blog.init(
       type: DataTypes.INTEGER,
       defaultValue: 0,
     },
+    createdAt: {
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
+      name: 'createdAt',
+      field: 'created_at',
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      name: 'updatedAt',
+      field: 'updated_at',
+    },
+    year: {
+      type: DataTypes.INTEGER,
+      validate: {
+        min: 1901,
+        max: new Date().getFullYear(),
+      },
+    },
   },
   {
     sequelize,

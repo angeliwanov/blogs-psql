@@ -1,6 +1,7 @@
 const Blog = require('./blog');
 const User = require('./user');
 const ReadingList = require('./reading_list');
+const Token = require('./token');
 
 User.hasMany(Blog);
 User.hasMany(ReadingList);
@@ -17,4 +18,5 @@ module.exports = {
   Blog,
   User,
   ReadingList,
+  Token,
 };

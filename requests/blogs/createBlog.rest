@@ -1,10 +1,10 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZ2VsQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MjMzNzc0NjV9.Rfcg0ZLBcIFRY9B8eSVaPScfPaJd2PTFMoBxkheMr6U
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZ2VsQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MjMzODM5MTMsImV4cCI6MTcyMzQ3MDMxM30.Fsr6oq6Bxw72SjX60b-ivyuwGwK7YCtYiFKNWTpwmeM
 
 {
-  "author": "Kyle",
-  "title": "JS",
-  "url": "js.org",
+  "author": "Daasd",
+  "title": "Reaasd",
+  "url": "rea.org",
   "year": 2020
 }

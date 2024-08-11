@@ -1,26 +1,18 @@
 const { Model, DataTypes } = require('sequelize');
-
 const { sequelize } = require('../util/db');
 
-class User extends Model {}
+class Token extends Model {}
 
-User.init(
+Token.init(
   {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
     },
-    username: {
-      type: DataTypes.STRING,
+    jwt: {
+      type: DataTypes.TEXT,
       unique: true,
-      validate: {
-        isEmail: true,
-      },
-      allowNull: false,
-    },
-    name: {
-      type: DataTypes.STRING,
       allowNull: false,
     },
     createdAt: {
@@ -30,17 +22,13 @@ User.init(
     updatedAt: {
       type: DataTypes.DATE,
     },
-    enabled: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: true,
-    },
   },
   {
     sequelize,
     underscored: true,
     timestamps: true,
-    modelName: 'user',
+    modelName: 'token',
   }
 );
 
-module.exports = User;
+module.exports = Token;

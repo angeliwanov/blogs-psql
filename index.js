@@ -11,9 +11,11 @@ const userRouter = require('./controllers/users');
 const loginRouter = require('./controllers/login');
 const blogsRouter = require('./controllers/blogs');
 const readingListsRouter = require('./controllers/readingLists');
+const logoutRouter = require('./controllers/logout');
 
 app.use(express.json());
 
+app.use('/api/logout', logoutRouter);
 app.use('/api/readinglists', readingListsRouter);
 app.use('/api/authors', authorsRouter);
 app.use('/api/login', loginRouter);

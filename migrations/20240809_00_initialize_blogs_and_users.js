@@ -26,13 +26,9 @@ module.exports = {
       created_at: {
         type: DataTypes.DATE,
         defaultValue: DataTypes.NOW,
-        // name: 'createdAt',
-        // field: 'created_at',
       },
       updated_at: {
         type: DataTypes.DATE,
-        // name: 'updatedAt',
-        // field: 'updated_at',
       },
     });
     await queryInterface.createTable('users', {
@@ -56,13 +52,9 @@ module.exports = {
       created_at: {
         type: DataTypes.DATE,
         defaultValue: DataTypes.NOW,
-        // name: 'createdAt',
-        // field: 'created_at',
       },
       updated_at: {
         type: DataTypes.DATE,
-        // name: 'updatedAt',
-        // field: 'updated_at',
       },
     });
     await queryInterface.addColumn('blogs', 'user_id', {

@@ -1,10 +1,10 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZ2VsQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MjMzMTM5Mjl9.kNzrLQZwiU0DMJtyoWm5_34ujB9YTqlIgzMmjMC5qXw
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZ2VsQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MjMzNzc0NjV9.Rfcg0ZLBcIFRY9B8eSVaPScfPaJd2PTFMoBxkheMr6U
 
 {
-  "author": "Public",
-  "title": "Ruby",
-  "url": "ruby.org",
-  "year": 2023
+  "author": "Kyle",
+  "title": "JS",
+  "url": "js.org",
+  "year": 2020
 }

@@ -26,13 +26,9 @@ User.init(
     createdAt: {
       type: DataTypes.DATE,
       defaultValue: DataTypes.NOW,
-      // name: 'createdAt',
-      // field: 'created_at',
     },
     updatedAt: {
       type: DataTypes.DATE,
-      // name: 'updatedAt',
-      // field: 'updated_at',
     },
   },
   {
